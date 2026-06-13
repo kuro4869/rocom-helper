@@ -4,7 +4,7 @@
 
 > [!IMPORTANT]
 > PC端直接使用有封号风险，建议用手机玩游戏，用电脑运行工具，电脑开热点（理论上可完全避免被封）或用Reqable等方式让流量从电脑上走
-> 需要在点击 `进入游戏` 前打开工具
+> 需要在点击 `进入世界` 前打开工具
 
 > [!IMPORTANT]
 > Windows 用户须安装 [Npcap](https://npcap.com/#download)，安装时勾选 `Install Npcap in WinPcap API-compatilbility mode`
