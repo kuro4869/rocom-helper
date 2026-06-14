@@ -57,7 +57,7 @@
 
 #### 宠物筛选
 
-支持通过 自定义名称、精灵名称、进化链、等级、声音、体重、性别、系别、性格、血脉、蛋组、咕噜球、天分、技能、特长、佩戴的奖牌 进行筛选
+支持通过 自定义名称、精灵名称、进化链、等级、声音、体重、性别、系别、性格、个体值、血脉、蛋组、咕噜球、天分、技能、特长、佩戴的奖牌 进行筛选
 
 <img src="./screenshots/p1.png" alt="主界面" width="600">
 
@@ -68,3 +68,11 @@
 ### 其他功能
 
 <img src="./screenshots/img6.png" alt="主界面" width="600">
+
+## 赞助
+
+<details>
+    <summary>点击展开二维码</summary>
+    <img src="https://github.com/h3110w0r1d-y/Phoenix/raw/master/img/wechat.png" width="300">
+    <img src="https://github.com/h3110w0r1d-y/Phoenix/raw/master/img/alipay.jpg" width="300">
+</details>
