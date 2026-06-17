@@ -1,0 +1,16 @@
+services:
+  roco-helper:
+    image: h3110w0r1d6/roco-helper:3.0.0-beta1
+    container_name: roco-helper
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    volumes:
+      - ./data:/data
+    command:
+      - --interface=eth0
+      - --bind=0.0.0.0
+      - --port=4939
+      - --database=/data
