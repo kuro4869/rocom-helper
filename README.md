@@ -36,7 +36,7 @@
 ### Linux版 CLI
 
 ```shell
-./roco_helper --interface=<监听网卡> --bind=<WEB绑定地址> --port=<WEB端口> --database=<数据目录>
+./roco_helper --iface=<监听网卡> --bind=<WEB绑定地址> --port=<WEB端口> --data_dir=<数据目录>
 ```
 
 ### 桌面端主界面
