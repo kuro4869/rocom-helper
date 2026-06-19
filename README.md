@@ -6,6 +6,7 @@
 > PC端直接使用有封号风险，推荐通过以下几种方式使用：
 > - 用电脑开热点，移动端连接电脑热点
 > - 软路由 Docker 部署（仅arm64/amd64架构）
+> - NAS Docker 部署，启用Socks5
 > - 用Reqable等代理软件让流量从电脑上走
 >
 > 需要在点击 `进入世界` 前打开工具
@@ -22,7 +23,7 @@
 
 ## 下载
 
-- Docker: [docker-compose.yml](docker-compose.yml)
+- Docker: [docker-compose.yml](docker-compose.yml) | [docker-compose-socks5.yml](docker-compose-socks5.yml)
 - Windows：[roco_helper.exe](https://github.com/h3110w0r1d-y/rocom-helper/releases/latest/download/roco_helper.exe)
 - macOS：[roco_helper.app.zip](https://github.com/h3110w0r1d-y/rocom-helper/releases/latest/download/roco_helper.app.zip)
 
