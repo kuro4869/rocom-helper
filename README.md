@@ -13,6 +13,8 @@
 
 > [!IMPORTANT]
 > Windows 用户须安装 [Npcap](https://npcap.com/#download)，安装时勾选 `Install Npcap in WinPcap API-compatilbility mode`
+>
+> macOS 用户须安装 ChmodBPF.pkg
 
 > [!NOTE]  
 > 仅做PVE、地图资源采集、宠物筛选相关功能，不会做PVP相关、影响游戏平衡性的功能
@@ -24,8 +26,8 @@
 ## 下载
 
 - Docker: [docker-compose.yml](docker-compose.yml) | [docker-compose-socks5.yml](docker-compose-socks5.yml)
-- Windows：[roco_helper.exe](https://github.com/h3110w0r1d-y/rocom-helper/releases/latest/download/roco_helper.exe)
-- macOS：[roco_helper.app.zip](https://github.com/h3110w0r1d-y/rocom-helper/releases/latest/download/roco_helper.app.zip)
+- Windows：[roco_helper-vX.X.X.exe](https://github.com/h3110w0r1d-y/rocom-helper/releases/latest)
+- macOS：[roco_helper.app-vX.X.X.zip](https://github.com/h3110w0r1d-y/rocom-helper/releases/latest)
 
 ## 功能介绍
 
