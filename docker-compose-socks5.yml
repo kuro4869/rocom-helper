@@ -3,18 +3,15 @@ services:
     image: h3110w0r1d6/roco-helper:latest
     container_name: roco-helper
     restart: unless-stopped
-    cap_add:
-      - NET_RAW
-      - NET_ADMIN
     environment:
-      - SOCKS5_ENABLE=1
-      - SOCKS5_BIND=0.0.0.0
-      - SOCKS5_PORT=1080
+      - ROCO_CAPTURE_MODE=socks5
+      - ROCO_SOCKS5_BIND=0.0.0.0
+      - ROCO_SOCKS5_PORT=1080
       - ROCO_BIND=0.0.0.0
       - ROCO_PORT=4939
       - ROCO_DATA_DIR=/data
     ports:
-      - 4939:4939
-      - 1080:1080
+      - "4939:4939"
+      - "1080:1080"
     volumes:
       - ./data:/data
